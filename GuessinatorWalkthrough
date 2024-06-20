@@ -1,0 +1,70 @@
+Game Overview
+Guessinator is a multiplayer guessing game where players guess an object, person, or idea based on hints and clues.
+The game uses Wikipedia to provide information about the subjects.
+
+
+Rules
+######
+1. Game Setup
+ - Multiple players can play. (ask user input)
+ - Use a list of predefined subjects (objects, people, ideas). (all players get the same list)
+
+2. Turn Structure
+ - Players take turns guessing. (randomise which player plays first, but ensure all get the same amount of turns)
+ - Each turn, a player gets a subject to guess. (randomise, so one player may have to guess people only)
+
+3. Hints and Clues -
+ - Hint: General information about the subject.
+ - Clue: More specific information about the subject.
+ - Final Clue: Very detailed information about the subject.
+
+4. Guessing -(on the first display of a guess topic the player can guess, then inject hint, clue, final clue after each attempt)
+ - Player receives a hint and can guess or ask for a clue.
+   - If the guess is wrong after the hint, player can get a clue.
+ - Player can guess again or ask for the final clue.
+   - After the final clue, the player must guess.
+ - If there is still no right answer, the game is finalized and the scores are tallied up.
+
+5. Scoring
+ - Correct guess after hint: 3 points
+ - Correct guess after clue: 2 points
+ - Correct guess after final clue: 1 point
+ - Incorrect guess: 0 points (Overall incorect guess)
+ - Scoreboard tracks each player's score.
+
+6. Winning/Loosing the Game
+ - Play a set number of rounds or until a target score is reached. - number of round could depend on the number of players, (odd vs even)
+ - Player with the most points wins.
+ - Scores are tallied after all rounds.
+ - Highest score wins.
+
+
+Example Turn 1
+Player 1's Turn:
+
+Hint: "Famous scientist known for relativity."
+Player 1 guesses "Albert Einstein" (correct).
+Player 1 gets 3 points.
+Player 2's Turn:
+
+Hint: "Red object often in salads."
+Player 2 asks for a clue.
+Clue: "It's a fruit."
+Player 2 guesses "Tomato" (correct).
+Player 2 gets 2 points.
+
+
+Objects
+--------
+Smartphone
+
+
+People
+-------
+Albert Einstein
+Marie Curie
+
+
+Ideas
+------
+Gravity
